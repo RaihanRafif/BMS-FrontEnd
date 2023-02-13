@@ -16,7 +16,7 @@ $x_tanggal_1  = mysqli_query($konek, 'SELECT time_created FROM ( SELECT * FROM b
 $random_number_1   = mysqli_query($konek, 'SELECT random_number FROM ( SELECT * FROM batt1 ORDER BY id DESC LIMIT 20) Var1 ORDER BY ID ASC');
 ?>
 
-<script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+<!-- <script src="https://cdn.jsdelivr.net/npm/chart.js"></script> -->
 <div class="panel panel-primary">
     <div class="panel-body">
         <canvas id="myChart2"></canvas>

@@ -58,9 +58,6 @@ function kwhComponentValue($value, $id)
 <!DOCTYPE html>
 <html lang="en">
 
-<head>
-    <link rel="stylesheet" href="../../assets/style.css">
-</head>
 
 <body>
     <!-- <ul>

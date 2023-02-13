@@ -56,9 +56,6 @@ function carbonComponentValue($value, $id)
 <!DOCTYPE html>
 <html lang="en">
 
-<head>
-    <link rel="stylesheet" href="../../assets/style.css">
-</head>
 
 <body>
     <div class="panel-section">

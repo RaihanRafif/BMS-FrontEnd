@@ -7,12 +7,6 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href='https://unpkg.com/boxicons@2.0.7/css/boxicons.min.css' rel='stylesheet'>
 
-    <!-- IMPORT CSS SECTION -->
-    <!-- <link href="assets/css/bootstrap.min.css" rel="stylesheet"> -->
-    <!-- <link href="assets/style.css" rel="stylesheet"> -->
-    <style>
-    </style>
-
     <link rel="stylesheet" href="./assets/navbar.css">
     <link rel="stylesheet" href="./assets/style.css">
 
@@ -21,6 +15,9 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
     <script src="assets/js/js.js"></script>
+    <script src="http://code.jquery.com/jquery-3.6.1.js"></script>
+    <link href="./dist/pagination/pagination.css" rel="stylesheet" type="text/css">
+    <!-- <link href="./dist/pagination/pagination.css" rel="stylesheet" type="text/css"> -->
     <title>Energy Management System</title>
 </head>
 
@@ -28,11 +25,12 @@
     <?php
     include('./components/navbar.php');
     ?>
-
+    <script src="http://code.jquery.com/jquery-3.6.1.js"></script>
+    <script src="./assets/pagination/pagination.js"></script>
     <section class="home-section">
         <?php
         include('./pages/battery-status.php');
-        // include('./pages/daily-report.php');
+        include('./pages/daily-report.php');
         // include('./pages/events.php');
         // include('./pages/monthly-report.php');
         // include('./pages/yearly-report.php');
@@ -53,6 +51,7 @@
     </script>
     <script src="assets/js/jquery.min.js"></script>
     <script src="assets/js/bootstrap.min.js"></script>
+    <script src="./assets/pagination/pagination.js"></script>
 </body>
 
 </html>
